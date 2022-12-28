@@ -116,7 +116,7 @@ class BookInstance(models.Model):
         return self.all_weight
 
     def __str__(self):
-        return f"{self.inv_nom} {self.book} {self.status}{self.weight}{self.all_weight}"
+        return f"{self.inv_nom} {self.book} {self.status}{self.weight}"
 
    
 
